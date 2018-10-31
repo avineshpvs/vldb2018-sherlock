@@ -462,11 +462,8 @@ class AnalysisContainer extends React.Component {
         return (<Grid>
                 <Row>
                     <Col xs={12}>
-
-                        <p className="lead">
                         <PageHeader> <b>Topic: </b><em>{title}</em> </PageHeader>
                         <Well><b>Query: </b>{narrative}</Well>
-                        </p>
                     </Col>
                 </Row>
                 <Row>
@@ -491,6 +488,7 @@ class AnalysisContainer extends React.Component {
                                 <Json json={latestIteration.weights}/>
                             </Tab>
                         </Tabs>
+
                         <h4>Legend:</h4>
                         <Table>
                             <thead>

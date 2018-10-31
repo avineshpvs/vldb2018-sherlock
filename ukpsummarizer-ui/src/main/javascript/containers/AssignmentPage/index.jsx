@@ -144,7 +144,6 @@ class AssignmentPage extends React.Component {
                                 extent the concepts presented to you will help fulfilling your information need.
                             </li>
                         </ol>
-
                     </Panel>
                 </Col>*/}
             </Row>
