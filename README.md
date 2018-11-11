@@ -67,6 +67,9 @@ Prerequisites
     - XML::DOM 
         ``` 
         sudo apt-get install libxml-dom-perl
+	or
+	apt-get install -y cpan
+	cpan --force XML::Parse
         ```
     - libexpat :
         ``` 
